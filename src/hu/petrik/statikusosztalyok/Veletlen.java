@@ -74,4 +74,33 @@ public final class Veletlen {
     public static String velTeljesNev(boolean nem) {
         return velVezetekNev() + " " + velKeresztNev(nem);
     }
+
+    public static int velDatum(int ev1,int ev2){
+
+
+        return 12;
+    }
+
+    public static String velEmail(String nev){
+        return "%s";
+    }
+
+    public static String velMobil(String nev){
+        String telefonszam = "";
+
+        for (int i =0;i<7;i++)
+        {
+            telefonszam+=rnd.nextInt();
+        }
+        return "+36 (30) "+ telefonszam;
+    }
+    public static String velSportag(){
+
+        return "";
+    }
+    public static String velSporegyesulet(){
+
+        return "";
+    }
+
 }
